@@ -13,6 +13,42 @@ p {
     font-size: 14px;
 }
 
+/* Generic CSS */
+
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.section-title h2{
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-title p{  
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
 /* Header */
 .header {
     background-image: url("../images/daniel.JPG");
@@ -110,4 +146,47 @@ p {
 
 .header-iphone img {
     width: 100%;
+}
+
+/* About Us */
+.choose-us-wrapper {
+    padding-top: 50px;
+}
+
+.about-iphone img {
+    margin-top: 8px;
+}
+
+.about-me-title {
+    padding-bottom: 50px;
+}
+
+.about-me-title h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+
+.about-me-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -12 px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #129CF3;
+}
+
+.about-me-title p {
+    margin-top: 40px; 
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.choose-us-item {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
 }
