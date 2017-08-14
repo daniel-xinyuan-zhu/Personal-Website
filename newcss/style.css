@@ -169,15 +169,15 @@ p {
     position: relative;
 }
 
-.about-me-title h2:after {
+/*.about-me-title h2:after {
     content: "";
     position: absolute;
-    bottom: -12 px;
+    bottom: -15 px;
     left: 0;
     width: 70px;
     height: 1px;
     background-color: #129CF3;
-}
+}*/
 
 .about-me-title p {
     margin-top: 40px; 
@@ -189,4 +189,89 @@ p {
     position: relative;
     padding-bottom: 4px;
     padding-left: 80px;
+}
+
+.choose-us-item div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.choose-us-item div i {
+    font-size: 55px;
+    color: #129CF3;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o- transition: all 1s;
+    -moz- transition: all 1s;
+}
+
+.choose-us-item h3 {
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.choose-us-item p {
+    color: #727272;
+    font-size: 15px;
+}
+
+
+/* Testimonial */
+.activities {
+    background-image: url("../images/testimonial-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -devnet-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.activities-overlay {
+    background-color: rgba(31,31,31, 0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.carousel-indicators {
+    bottom: -10px; 
+    
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.activity-caption {
+    padding-bottom: 70px;
+}
+
+.activity-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.activity-caption h4 {
+    color: #129CF3;
+}
+
+.activity-caption h4 span {
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.activity-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
 }
