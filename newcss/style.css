@@ -20,7 +20,7 @@ p {
 /* Generic CSS */
 
 .section-title {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 50px;
 }
 
@@ -221,16 +221,6 @@ p {
     position: relative;
 }
 
-/*.about-me-title h2:after {
-    content: "";
-    position: absolute;
-    bottom: -15 px;
-    left: 0;
-    width: 70px;
-    height: 1px;
-    background-color: #129CF3;
-}*/
-
 .about-me-title p {
     margin-top: 40px; 
     font-size: 19px;
@@ -274,7 +264,7 @@ p {
     margin-bottom: 100px;
 }
 
-/* Testimonial */
+/* Activities */
 .activities {
     background-image: url("../images/testimonial-bg.jpg");
     background-attachment: fixed;
@@ -370,7 +360,6 @@ p {
 .projects-inner-wrapper 
 {
     padding-top: 30px;
-    padding-bottom: 70px;
     
 }
 
@@ -450,46 +439,9 @@ p {
     font-weight: 300;
 }
 
-/* Statistics */
-.statistics {
-    background-image: url("../images/counter-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: 50% 50%;
-}
-
-.statistics-overlay {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background: rgba(0,0,0, .4);
-}
-
-.counter-item i {
-    color: #129CF3;
-    font-size: 60px;
-}
-
-.counter-item h2 {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #D7DADB;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-top: 15px;
-    margin-bottom: 1px;
-}
-
-.counter-item p {
-    color: #D7DADB;
-    font-size: 20px; 
-    margin-top: 0px;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
+/* TA Section */
+#TA-section {
+    padding-bottom: 140px;
 }
 
 /* Contact Me */
