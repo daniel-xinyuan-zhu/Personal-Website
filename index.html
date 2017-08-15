@@ -15,6 +15,9 @@
         
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600i,700,900" rel="stylesheet">
         
+        <!-- Animate -->
+        <link rel="stylesheet" type="text/css" href="newcss/animate.css">
+        
         <!-- CSS --->
         <link rel="stylesheet" type="text/css" href="newcss/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="newcss/style.css">
@@ -45,10 +48,7 @@
                         <span class="icon-bar"></span>
                       </button>
                       <a class="navbar-brand" href="#">
-                          <!-- Samll Size Logo -->
-                          <img src="images/logo-small.png" alt="logo">
-
-                        </a>
+                      </a>
                     </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,7 +58,7 @@
                         <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
                         <li><a href="#ACTIVITIES" class="nav-item">ACTIVITIES</a></li>
                         <li><a href="#PROJECTS" class="nav-item">PROJECTS</a></li>
-                        <li><a href="#TA-RESOURCES" class="nav-item">TA RESOURCES</a></li>
+                        <li><a href="#TARESOURCES" class="nav-item">TA RESOURCES</a></li>
                         <li><a href="#RESUME" class="nav-item">RESUME</a></li>
                         <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
                       </ul>
@@ -78,7 +78,7 @@
                             <!-- Logo -->
                             <div class="logo text-center">
                                 <!--img src ="images/logo.png" alt="Daniel"-->
-                                <p> DXZ </p>
+                                <p> </p>
                             </div>
                             
                         </div>
@@ -98,10 +98,10 @@
                             
                             <div class = "header-btns">
                                 <!-- Header buttons -->
-                                <a class = "btn btn-download" href="#"> Download Resume </a>
-                                <a class = "btn btn-tour" href="#"> Learn More
+                                <!--<a class = "btn btn-download wow fadeInLeft"href="#"> Download Resume </a>
+                                <a class = "btn btn-tour wow fadeInRight" href="#"> Learn More
                                 <i class ="fa fa-angle-down"></i>
-                                </a>
+                                </a>-->
                             </div>
                             
                         </div>
@@ -111,7 +111,6 @@
                                 
                             </div>
                         </div>
-                        
                     </div>
                 </div>
                 
@@ -128,7 +127,7 @@
                         <!-- About Me Title & Description -->
                         <div class = "section-title">
                             <h2> About Me </h2>
-                            <p> Hi I'm Daniel! I'm a second year undergraduate student at Northwestern University studying computer science. <p>
+                            <p> Hi I'm Daniel! I'm a second year undergraduate student at Northwestern University studying computer science. In my current state, I'm aspiring to obtain a bachelors and masters combined degree in computer science within 4 years. Outside of class, I enjoy spending time with my friends, cooking, landscape photography, and exploring new places! <p>
                         
                         </div>
                     
@@ -140,13 +139,13 @@
             
             <div class = "choose-us-wrapper">
             
-                <div class = "container">
+                <div class = "container" id = "qanda">
                     <div class = "row">
                     
-                        <div class = "col-md-6">
+                        <div class = "col-md-5" id = "left-pic">
                         
                             <!-- About iphone -->
-                            <div class="about iphone">
+                            <div class="about iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay =".5s">
                             
                                 <img src = "images/daniel_street.JPG" alt = "iphone"> 
                             
@@ -154,13 +153,16 @@
                             
                         </div>
                         
-                        <div class = "col-md-6">
+                        <div class = "col-md-2">
+                        </div>
+                        
+                        <div class = "col-md-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" id = "right-text">
                             
                             <!-- A little about me -->
                             
                             <div class = "about-me-title">
                                 
-                                <h2> A little bit about me! </h2>
+                                <h2> Q & A with Daniel </h2>
                                 <p>  Here's some information about me. </p>
                                 
                             </div>
@@ -170,7 +172,7 @@
                             <div class = "choose-us-des">
                             
                                 <!-- Choose us item one -->
-                                <div class = "choose-us-item">
+                                <div class = "choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                     <!-- Choose us item icon -->
                                     <div><i class = "fa fa-bolt"> </i></div>
                                     
@@ -181,24 +183,25 @@
                                 </div>
                             
                                 <!-- Choose us item one -->
-                                <div class = "choose-us-item">
+                                <div class = "choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                     <!-- Choose us item icon -->
                                     <div><i class = "fa fa-bolt"> </i></div>
                                     
                                     <!-- choose us item title & description -->
-                                    <h3> What do you do outside of class? </h3>
-                                    <p> I enjoy reading books, spending time with friends, and cooking! </p>
+                                    <!-- choose us item title & description -->
+                                    <h3> What sorts of industry experience do you have? </h3>
+                                    <p> As an incoming freshman, I built a .io game called Snowfight.io with a couple of my friends. This past summer, I interned at Cisco Systems as a Technical Sales Engineering Intern, which was about a 50/50 split between Sales Engineering and technical development. I also spent a month as a software development intern working with Cisco Sparkbots and web interfaces. </p>
                                     
                                 </div>
                                 
                                 <!-- Choose us item one -->
-                                <div class = "choose-us-item">
+                                <div class = "choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                     <!-- Choose us item icon -->
                                     <div><i class = "fa fa-bolt"> </i></div>
                                     
                                     <!-- choose us item title & description -->
-                                    <h3> Where have you worked in the past? </h3>
-                                    <p> Cisco! </p>
+                                    <h3> How did you build this website? What technologies did you use? </h3>
+                                    <p> I started off by building a mostly static display with HTML5 and CSS3. Afterwards, I made it fancier with some animations and smooth scrolling using Javascript and Jquery. If you're curious about specifics or want to learn, let me know and I'll be happy to teach you!</p>
                                     
                                 </div>
                                 
@@ -288,7 +291,7 @@
                 <div class = "row">
                     <div class = "col-md-10 col-md-offset-1">
                     
-                        <div class = "section-title">
+                        <div class = "section-title wow fadeIn" data-wow-duration="1s">
                         
                             <h2> My Projects</h2>
                             <p> Here are some of the projects I'm currently working on! </p>
@@ -304,7 +307,7 @@
                 <div class = "container">
                     <div class = "row">
                     
-                        <div class = "col-md-4">
+                        <div class = "col-md-4 wow fadeInLeft" data-wow-duration="1s">
                         
                             <!-- Left Project 1 -->
                             <div class = "left-project-item">
@@ -345,7 +348,7 @@
                         
                         </div>
                             
-                        <div class ="col-md-4">
+                        <div class ="col-md-4 wow fadeInRight" data-wow-duration="1s">
                             
                             <!-- Right Project 1 -->
                             <div class = "right-project-item">
@@ -381,6 +384,24 @@
                 </div>
             </div>
             
+        </section>
+        
+        
+        <!-- TA Resources -->
+        <section class = "ta-resources" id = "TARESOURCES">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "col-md-10 col-md-offset-1">
+                        <!-- About Me Title & Description -->
+                        <div class = "section-title">
+                            <h2> TA Resources </h2>
+                            <p> Below, you can find TA resources for the classes I TA for. <p>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
         </section>
         
         <!-- Statistics -->
@@ -433,7 +454,7 @@
         <section class = "download-resume" id = "RESUME">
         
             <div class = "container">
-                <div class = "row">
+                <div class = "row wow fadeInLeftBig" data-wow-duraction="1s">
                     <div class = "col-md-9">
                     
                         <p>This is something we can talk about 
@@ -453,7 +474,7 @@
         
         <!-- Contact Me -->
         <section class = "contact-me" id = "CONTACT">
-            <div class = "container">
+            <div class = "container wow bounceIn">
                 <div class = "row">
                     <div class = "col-md-10 col-md-offset-1">
                         <div class = "section-title">
@@ -465,7 +486,7 @@
                 </div>
             </div>
             
-            <div class = "contact-me-form">
+            <div class = "contact-me-form wow bounceIn">
                 <div class = "container"> 
                     <form role = "form">
                         <div class = "row">
@@ -492,7 +513,7 @@
                 <div class = "container">
                     <div class = "row">
                     
-                        <div class = "col-md-12">
+                        <div class = "col-md-12 wow bounceIn">
                             <div class = "social-icons">
                                 <ul> 
                                     <li> <a href="http://facebook.com"><i class = "fa fa-facebook"></i></a></li>
@@ -539,6 +560,14 @@
         <!-- Bootstrap Javascript -->
         <script src="javascript/jquery.js"> </script> 
         <script src="javascript/bootstrap.min.js"> </script>
+        
+        
+        <!-- Add JS counter lib -->
+        <script src="javascript/jquery.counterup.min.js"> </script>
+        <script src="javascript/jquery.waypoints.min.js"> </script>
+        
+        <!-- Adds Wow JS Library -->
+        <script src="javascript/wow.min.js"></script>
         
         <!-- Custom Javascript -->
         <script src="javascript/custom.js"> </script>

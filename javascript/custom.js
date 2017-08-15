@@ -132,3 +132,20 @@ $(document).ready(function() {
         });
     }, 10);
 });
+
+
+/* Add Counter */
+$(document).ready(function() {
+    $('.counter-num').counterUp({
+    delay: 10,
+    time: 2000
+    });
+});
+
+/*Add Animation and Initialize Wow */
+$(document).ready(function() {
+    'use strict';
+    new WOW().init();
+});
+
+
