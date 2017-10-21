@@ -33,7 +33,7 @@ p {
     text-transform: uppercase;
 }
 
-.section-title p{  
+.section-title p{
     color: #333;
     font-size: 18px;
     line-height: 28px;
@@ -54,7 +54,7 @@ p {
 }
 
 /* Navigation */
-.navbar-default 
+.navbar-default
 {
     background-color: transparent;
     border-color: #444;
@@ -79,7 +79,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a:focus {
-    color: #B5B5B5;   
+    color: #B5B5B5;
 }
 
 .navbar-brand {
@@ -93,10 +93,10 @@ p {
     -webkit-transition: all 1s;
 }
 
-.navbar-default .navbar-nav > .active >a, 
-.navbar-default .navbar-nav > .active >a:hover, 
+.navbar-default .navbar-nav > .active >a,
+.navbar-default .navbar-nav > .active >a:hover,
 .navbar-default .navbar-nav > .active >a:focus {
-    background-color: transparent; 
+    background-color: transparent;
     color: #129CF3;
 }
 
@@ -163,7 +163,7 @@ p {
     -o-transition: all 1s;
 }
 
-.btn-download:hover 
+.btn-download:hover
 {
     background-color: #129CF3;
     color: #fff;
@@ -185,13 +185,13 @@ p {
     -o-transition: all 1s;
 }
 
-.btn-tour:hover 
+.btn-tour:hover
 {
     color: #fff;
 }
 
 .btn-tour i {
-    font-size: 20px; 
+    font-size: 20px;
     padding-left: 5px;
     color: #129CF3;
 }
@@ -222,7 +222,7 @@ p {
 }
 
 .about-me-title p {
-    margin-top: 40px; 
+    margin-top: 40px;
     font-size: 19px;
     line-height: 24px;
 }
@@ -283,8 +283,8 @@ p {
 }
 
 .carousel-indicators {
-    bottom: -10px; 
-    
+    bottom: -10px;
+
 }
 .carousel-inner .item img {
     border: 2px solid #129CF3;
@@ -321,6 +321,42 @@ p {
     padding-top: 50px;
 }
 
+/* Download Practice Test */
+
+.download-test {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+download-test p {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-download-test,
+.btn-download-test:active,
+.btn-download-test:focus,
+.btn-download-test:visited
+{
+    background-color: #129CF3;
+    border: 1px solid #123CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -devkit-transition: all 1s;
+}
+
+.btn-download-test:hover {
+    background-color: #127481;
+    border-color: #316B90;
+}
+
 /* Download Resume */
 .download-resume {
     background-color: #1a1a1a;
@@ -335,9 +371,9 @@ p {
 }
 
 .btn-download-resume,
-.btn-download-resume:active, 
+.btn-download-resume:active,
 .btn-download-resume:focus,
-.btn-download-resume:visited 
+.btn-download-resume:visited
 {
     background-color: #129CF3;
     border: 1px solid #123CF3;
@@ -357,20 +393,20 @@ p {
 }
 
 /* Projects */
-.projects-inner-wrapper 
+.projects-inner-wrapper
 {
     padding-top: 30px;
-    
+
 }
 
-.left-project-item 
+.left-project-item
 {
     position: relative;
     padding-right: 90px;
     margin-bottom: 65px;
     text-align: right;
     margin-top: 35px;
-    
+
 }
 
 .left-project-item-icon{
@@ -403,14 +439,14 @@ p {
     width: 100%
 }
 
-.right-project-item 
+.right-project-item
 {
     position: relative;
     padding-left: 90px;
     margin-bottom: 65px;
     text-align: left;
     margin-top: 35px;
-    
+
 }
 
 .right-project-item-icon{
@@ -450,7 +486,7 @@ p {
     width: 100%;
     height: 50px;
     padding: 6px 12px;
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 21px;
     color: #555;
     border: 1px solid #aeaeae;
@@ -543,7 +579,7 @@ p {
     padding-bottom: 35px;
     padding-top: 35px;
     border-bottom: 3px solid #129CF3;
-    
+
 }
 #copyright {
     width: 50%;
@@ -567,11 +603,11 @@ p {
 .scroll-top a {
     background-color: #129CF3;
     padding: 25px;
-    
+
 }
 
 .scroll-top a i {
     color: #fff;
     font-size: 25px;
-    
+
 }
